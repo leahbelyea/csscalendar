@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/calendarapp.css">
+</head>
+<body>
+
+	<div data-role="page" class="page">
+		<div data-role="header">
+			<h1>Connaught Street School<br>Event Calendar</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<div id="calendar"></div>
+			<div class="button-bar">
+				<button class="ui-btn ui-btn-inline" id="refresh-btn"><i class="fa fa-refresh"></i>Refresh</button>
+				<button class="ui-btn ui-btn-inline" id="today-btn"><i class="fa fa-calendar"></i>Today</button>
+			</div>
+
+			<div id="event-popup" data-role="popup">
+				<div id="events"></div>
+				<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-link ui-btn ui-btn-b ui-icon-delete ui-btn-icon-notext ui-shadow ui-corner-all" role="button">Close</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="js/jquery.formatDateTime.js"></script>
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+	<script src="js/calendarapp.js"></script>
+</body>
+</html>

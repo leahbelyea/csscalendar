@@ -1,0 +1,168 @@
+.page {
+	text-align: center;
+}
+
+.ui-header {
+	margin-top: 40px;
+}
+
+.ui-header .ui-title {
+	margin: 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.ui-content {
+	display: inline-block;
+}
+
+body {
+	width: 320px;
+}
+
+.ui-datepicker-header {
+	position: relative;
+}
+
+#calendar {
+	margin-top: 20px;
+}
+
+#calendar .ui-datepicker-prev, #calendar .ui-datepicker-next {
+	cursor: pointer;
+	width: 50%;
+	line-height: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+}
+
+#calendar .ui-datepicker-prev:hover, #calendar .ui-datepicker-next:hover {
+	color: #a0a0a0;
+}
+
+.ui-datepicker-prev {
+	position: absolute;
+	left: 0;
+	text-align: left;
+}
+
+.ui-datepicker-next {
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
+
+.ui-datepicker-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.ui-datepicker-title span {
+	line-height: 30px;
+	font-size: 26px;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td {
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #a0a0a0;
+	position: relative;
+}
+
+#calendar td a {
+	text-decoration: none;
+	color: #333333;
+	text-shadow: none;
+}
+
+#calendar .event {
+	background: #d0d0d0;
+}
+
+#calendar .ui-datepicker-today a {
+	display: inline-block;
+	width: 1.3em;
+	background: #333333;
+	color: white;
+	font-weight: lighter;
+	margin: -5px;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.num-events {
+	font-size: 10px;
+	position: absolute;
+	bottom: 1px;
+	right: 2px;
+	margin: 0;
+}
+
+.button-bar button {
+	width: 48%;
+	margin: 12px 0 0 0;
+}
+
+.ui-content .button-bar button:focus {
+	box-shadow: none;
+}
+
+.button-bar #refresh-btn {
+	float: left;
+}
+
+.button-bar #today-btn {
+	float: right;
+}
+
+#today-btn i, #refresh-btn i {
+	padding-right: 10px;
+}
+
+#event-popup .event {
+	background: #d0d0d0;
+	text-shadow: none;
+	color: #333333;
+	padding: 10px;
+	margin: 10px;
+}
+
+#event-popup-popup {
+	width: 100%;
+}
+
+#event-popup-screen {
+	padding-bottom: 20px;
+}
+
+.event h2 {
+	font-weight: normal;
+	margin-top: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+.event i.fa {
+	font-size: 20px;
+	line-height: 20px;
+	float: left;
+}
+
+.event .icon-p {
+	margin-left: 30px;
+}
+
+.event .description {
+	border-top: 1px solid #a0a0a0;
+	padding-top: 10px;
+}
